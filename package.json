@@ -1,5 +1,5 @@
 {
-  "name": "react-demo",
+  "name": "simple-react-webpack-scaffolding",
   "version": "1.0.0",
   "description": "This is a simple and straight scaffolding of a small express.js based react app with webpack and hot module replacement plugin enabled.",
   "main": "index.js",
