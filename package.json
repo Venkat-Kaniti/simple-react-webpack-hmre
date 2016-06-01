@@ -27,5 +27,9 @@
     "react": "~15.1.0",
     "react-dom": "~15.1.0",
     "redux": "~3.5.2"
+  },
+  "repository": {
+  	"type": "git",
+	"url": "https://github.com/Venkat-Kaniti/simple-react-webpack-hmre.git"
   }
 }

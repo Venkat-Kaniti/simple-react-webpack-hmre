@@ -7,9 +7,9 @@ Installation:
 * git clone simple-react-webpack-hmre
 * cd simple-react-webpack-hmre
 * npm install
-* npm start
+* npm start (if no PORT environment variable is provided, express server starts at port 3000)
 
-If no PORT environment variable is provided, express starts at port 3000.
+
 
 Thank you,
 Venkat Kaniti
