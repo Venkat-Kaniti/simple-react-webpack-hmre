@@ -4,7 +4,7 @@
   "description": "This is a simple and straight scaffolding of a small express.js based react app with webpack and hot module replacement plugin enabled.",
   "main": "index.js",
   "scripts": {
-  	"start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,7 +17,10 @@
     "babel-preset-react": "~6.5.0",
     "babel-preset-react-hmre": "~1.1.1",
     "chai": "~3.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
     "mocha": "~2.5.3",
+    "style-loader": "^0.13.1",
     "webpack": "~1.13.1",
     "webpack-dev-middleware": "~1.6.1",
     "webpack-hot-middleware": "~2.10.0"
@@ -26,10 +29,11 @@
     "express": "~4.13.4",
     "react": "~15.1.0",
     "react-dom": "~15.1.0",
+    "react-router": "^2.4.1",
     "redux": "~3.5.2"
   },
   "repository": {
-  	"type": "git",
-	"url": "https://github.com/Venkat-Kaniti/simple-react-webpack-hmre.git"
+    "type": "git",
+    "url": "https://github.com/Venkat-Kaniti/simple-react-webpack-hmre.git"
   }
 }
