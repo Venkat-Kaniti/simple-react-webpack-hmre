@@ -4,7 +4,7 @@ import App from './components/App.jsx';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 
-function AppRouter() {
+const AppRouter = () => {
   return (
     <Router history={hashHistory}>
       <Route component={App} path='/'>
